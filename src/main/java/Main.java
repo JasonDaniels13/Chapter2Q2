@@ -37,6 +37,7 @@ public class Main {
 
     }
     //removing dependency
+
     private static void doMove(Move mover){
 
         System.out.println(mover.move());

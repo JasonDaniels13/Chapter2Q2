@@ -25,6 +25,15 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+
+    <dependency>
+      <groupId>org.springframe</groupId>
+      <artifactId>spring-context</artifactId>
+      <version>4.3.18</version>
+    </dependency>
+
+
+
   </dependencies>
 
   <build>
