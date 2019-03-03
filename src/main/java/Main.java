@@ -19,16 +19,16 @@ public class Main {
             while((input = br.readLine())!=null)
                 if (input.toLowerCase().equals("cat")) {
 
-                Cat cat = new Cat();
-                doSpeak(cat);
-                doMove(cat);
+                Animal animal = new Cat();
+                doSpeak(animal);
+                doMove(animal);
 
 
             } else if (input.toLowerCase().equals("dog")) {
 
-                Dog dog = new Dog();
-                doSpeak(dog);
-                doMove(dog);
+                Animal  animal = new Dog();
+                doSpeak(animal);
+                doMove(animal);
 
             }
         }catch(IOException io){
@@ -36,9 +36,9 @@ public class Main {
         }
 
     }
-
-
+    //removing dependency
     private static void doMove(Move mover){
+
         System.out.println(mover.move());
     }
 

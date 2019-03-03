@@ -3,16 +3,22 @@ import Interfaces.Sound;
 
 public abstract class Animal implements Move, Sound {
 
-    private String animalType;
+    private String type;
 
-    public Animal(String animalType){
-        this.animalType = animalType;
+    public Animal(String type){
+        this.type = type;
 
     }
 
     public String getAnimalType() {
-        return animalType;
+        return type;
     }
+
+    public void setAnimalType(String type) {
+        this.type = type;
+    }
+
+
 
 
 }
